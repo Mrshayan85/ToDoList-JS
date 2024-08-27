@@ -1,0 +1,92 @@
+body{
+    background-color: #253F5B;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.header-div{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 1000;
+    font-family: Helvetica, sans-serif;    
+}
+.inner-main-div{
+    border: 1px solid #344054;
+    border-radius: 10px;
+    background-color: #344054;
+    height: auto;
+    width: 850px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-div{
+    border: 1px solid #004671;
+    border-radius: 10px;
+    background-color: #004671;
+    min-height: 50vh;
+    max-height: auto;
+    width: 750px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-div{
+    width: 55%;
+}
+.textbox{ 
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    width: 55%;
+}
+.task-div{
+    display: flex;
+    width: 740px;
+}
+.add-tasks-div{
+       display: flex;
+       align-items: center;
+    /* justify-content: space-between;
+    margin-top: -13px; */
+}
+.add-tasks-div img{ 
+        width: 25px;
+        height: 25px; 
+
+    }
+.add-tasks-div p{
+    margin-top: 18px;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 100; 
+    margin-left: 7px;
+}
+.close-btn{
+    border: none;
+    background-color: #004671;
+    color: white;
+    text-align: right;
+    width: auto;   
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: -33px;
+    font-size: 15px;
+    
+}
+.add-tasks-div-main{
+    display: flex;
+    flex-direction: column; 
+}
+.cross-btn-div{
+    align-items: right;
+}
+.para-text{
+    cursor: pointer;
+    margin-right: 10px;
+    /* flex-grow: 1; */
+}
