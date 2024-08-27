@@ -13,7 +13,7 @@ textBox_text.addEventListener ("keypress",(event) =>{
     else{
     htmlElement.innerHTML += `  <div class="add-tasks-div-main">
     <div class="add-tasks-div">
-        <img src="./images/round-icon.png" alt="icon">
+        <img src="./round-icon.png" alt="icon">
         <p class="para-text">${changeText}   </p>
         
     </div>
