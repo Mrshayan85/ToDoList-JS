@@ -78,6 +78,11 @@ body{
     font-size: 15px;
     
 }
+
+.close-btn img{
+    width: 23px;
+    height: 10;
+}
 .add-tasks-div-main{
     display: flex;
     flex-direction: column; 
